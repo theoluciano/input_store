@@ -10,11 +10,6 @@ def file_input(user_input):
     input_lib.append(str(user_input))
 
 
-def get_name():
-    user_name = input('Please enter your name: ')
-    return user_name
-
-
 def new_input():
     while True:
         answer = input("Would you like to add more wisdom?(y/n): ")
